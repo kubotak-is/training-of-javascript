@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "scripts": {
+    "server": "http-server ./"
+  },
+  "name": "training-of-javascript",
+  "version": "1.0.0",
+  "description": "Training of Javascript",
+  "main": "index.js",
+  "license": "MIT"
+}
