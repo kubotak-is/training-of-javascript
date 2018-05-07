@@ -57,8 +57,11 @@ function getPokemon () {
 console.log(getPokemon());
 console.log(name);
 ```
+
+---
+
 結果は以下になります。
-```
+```sh
 pikachu
 pikachu
 ```
@@ -87,8 +90,8 @@ pikachu
 また、Javascriptの記述に一定のルールを設けるスタイルガイドが存在します。<br>
 参考にしましょう。
 
-[Google Javascript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)<br>
-[Airbnb Javascript Style Guide](https://github.com/airbnb/javascript)
+- [Google Javascript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)<br>
+- [Airbnb Javascript Style Guide](https://github.com/airbnb/javascript)
 
 ---
 
@@ -153,7 +156,7 @@ ES2015以前では変数・定数のどちらも`var`で表現していました
 ※一部ブラウザでは独自仕様としてES2015以前から`const`が実装されていたが、言語仕様として登場したのがES2015以降
 
 宣言は以下のように行います。
-```
+```js
 const 定数名 = 値;
 ```
 
@@ -168,7 +171,7 @@ const 定数名 = 値;
 そして、その定数はもしかしたら変更があるかもしれないし、変更される場合は一括で変わるという場合も効果的です。<br>
 例えば消費税などは1.08という数字自体には数字という意味しか持ちません。
 
-```
+```js
 const CONSUMPTION_TAX = 1.08;
 ```
 
