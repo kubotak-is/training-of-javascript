@@ -8,7 +8,7 @@
 
 ## 変数の宣言
 
-変数を利用する場合は予め宣言が必要です。宣言とは変数の名前をJavascriptに登録し、値を格納するための領域をメモリに確保することを言います。
+変数を利用する場合は予め宣言が必要です。宣言とは変数の名前をJavaScriptに登録し、値を格納するための領域をメモリに確保することを言います。
 変数の宣言は以下のように`var`命令が利用できます。
 
 ```js
@@ -45,7 +45,7 @@ var version = 10;
 
 ### Q. 宣言にvarは必要か
 
-実際には宣言に`var`がなくてもJavascriptでは自動的にそれが変数であると解釈されます。<br>
+実際には宣言に`var`がなくてもJavaScriptでは自動的にそれが変数であると解釈されます。<br>
 しかしながら、以下のようなコードがあった場合
 
 ```js
@@ -72,7 +72,7 @@ pikachu
 ---
 
 ### Q. 変数の名前はどうあるべきか
-前提としてJavascriptでは以下のようなルールが存在します。
+前提としてJavaScriptでは以下のようなルールが存在します。
 
 |規則|良い例|悪い例|
 |:----|:----|:----|
@@ -87,11 +87,11 @@ pikachu
 
 #### 読みやすいコードにするために
 リーダブルコードという本があります。<br>
-また、Javascriptの記述に一定のルールを設けるスタイルガイドが存在します。<br>
+また、JavaScriptの記述に一定のルールを設けるスタイルガイドが存在します。<br>
 参考にしましょう。
 
-- [Google Javascript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)<br>
-- [Airbnb Javascript Style Guide](https://github.com/airbnb/javascript)
+- [Google JavaScript Style Guide](https://google.github.io/styleguide/JavaScriptguide.xml)<br>
+- [Airbnb JavaScript Style Guide](https://github.com/airbnb/JavaScript)
 
 ---
 
