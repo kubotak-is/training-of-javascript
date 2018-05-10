@@ -46,7 +46,7 @@ Macromedia(現Adobe) Flashの台頭
 
 ### 2005年
 GoogleがAjaxを用いたGoogleMapを公開。<br>
-prototype.jsの登場し2010年にはjQueryの登場する
+prototype.jsが登場し2010年にはjQueryの登場する
 
 ---
 

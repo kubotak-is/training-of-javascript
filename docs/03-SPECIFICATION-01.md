@@ -90,7 +90,7 @@ pikachu
 また、JavaScriptの記述に一定のルールを設けるスタイルガイドが存在します。<br>
 参考にしましょう。
 
-- [Google JavaScript Style Guide](https://google.github.io/styleguide/JavaScriptguide.xml)<br>
+- [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/JavaScript)
 
 ---
