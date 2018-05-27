@@ -81,7 +81,7 @@ JavaScriptのデータ型には基本型と参照型の二種類に分類でき�
 ```js
 "It's OK"
 ```
-もしくは[エスケープシーケンス](https://msdn.microsoft.com/ja-jp/library/2yfce773(v=vs.94).aspx)を利用します。
+もしくは[エスケープシーケンス](https://msdn.microsoft.com/ja-jp/library/2yfce773.aspx)を利用します。
 ```js
 'It\'s OK'
 ```
