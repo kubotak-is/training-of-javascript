@@ -153,6 +153,7 @@ const hero = {
 const { name, age, title } = hero;
 console.log(title); // pokemonMaster
 ```
+※未定義変数を指定した場合はundefinedとなる
 
 ---
 
@@ -185,7 +186,7 @@ console.log(c); // {b:20, c:30}
 |<=|左辺が右辺以下の場合はtrue|5 <= 5 // true|
 |>|左辺が右辺より大きい場合はtrue|5 > 3 // true|
 |>=|左辺が右辺以上の場合はtrue|5 >= 3 // true|
-|===|値とデータ型が同じ場合はtrue|5 === 5 // true|
+|===|値とデータ型が同じ場合はtrue|5 === '5' // false|
 |!==|値が異なる、データ型が異なる場合はtrue|5 !== 5 // false|
 |?:|式がただし場合は:の左辺、正しくない場合は右辺|x = 1; (x === 1) ? 1 : 0 // 1|
 
